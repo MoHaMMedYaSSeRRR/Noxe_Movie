@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Open+Sans&family=Poppins:wght@600;700&display=swap');
+:root{
+  --bg-main:#131722;
+  --text-color : #fff;
+  --font-main :'Montserrat Alternates', sans-serif;
+  --bg-Transparent:rgba(36,186,239,.6);
+  --light-main:#24baef;
+  --border-color:#a8a8a83d;
+  --secondFontColor:#949cb0;
+}
+
+body{
+  background-color: var(--bg-main);
+  color: var(--text-color);
+  font-family: var(--font-main);
+  
+}
+a , a:hover{
+  text-decoration: none;
+  color: #fff;
+}
+
+.brdr{
+  height:  1px;
+  background-color: var(--border-color);
+}
+.bg-light-main{
+  
+  background-color: var(--light-main);
+  border-radius: 10px;
+}
+.textMuted{
+  color: var(--secondFontColor);
+}
